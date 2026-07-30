@@ -38,7 +38,7 @@
       const img = document.createElement("img");
 
       const number = String(i).padStart(2, "0");
-      img.src = `asset/menu-${number}.jpg`;
+      img.src = `Asset/menu-${number}.jpg`;
       img.alt = `Menu ${i}`;
 
       container.appendChild(img);
